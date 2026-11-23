@@ -8,7 +8,26 @@
 }
 
 .attendance-hero h2 {
-    color:#F5F1E6;
+    color:white;
     font-size: 8rem;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.attendance-card {
+    background-image:  linear-gradient(rgba(226, 235, 224, 0.20), rgba(226, 235, 224, 0.20)), url(./images/texture-new.webp);
+    background-size: cover;
+    background-position: center bottom;
+    max-width: 500px;
+    margin: 4rem auto;
+    border-left: 5px solid #b8732a;
+    padding: 40px;
+}
+
+.attendance-card h2 {
+    color:  darkgreen;
+    text-shadow: 0 1px 6px rgba(244, 242, 238, 0.85);
+}
+
+.attendance-card ul {
+    color: #3a2312;
 }
